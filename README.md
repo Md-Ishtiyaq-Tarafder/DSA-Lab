@@ -193,7 +193,7 @@ Students are welcome to study the implementations and use them as learning resou
 **B.Sc. in Computer Science and Engineering**
 Sylhet Engineering College
 
-📧 **Email:** *Add your email here (optional)*
+📧 **Email:** *csestudent47@gmail.com*
 
 🔗 **GitHub:** https://github.com/Md-Ishtiyaq-Tarafder
 
