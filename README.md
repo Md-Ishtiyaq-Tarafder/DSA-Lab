@@ -41,9 +41,7 @@ The implementations are written in **ANSI C** and demonstrate the fundamental co
 
 ### Topics Covered
 
-* Dynamic Memory Allocation using `malloc()`
-* Dynamic Memory Allocation using `calloc()`
-* Dynamic Arrays
+* Dynamic Memory Allocation
 * Fibonacci Sequence Generation
 * Recursive Summation
 * Basic Recursive Algorithms
@@ -54,8 +52,7 @@ The implementations are written in **ANSI C** and demonstrate the fundamental co
 
 ### Topics Covered
 
-* Stack Implementation (Array)
-* Stack Implementation (Linked List)
+* Stack Implementation
 * Queue Implementation
 * Singly Linked List
 
@@ -73,7 +70,6 @@ Throughout these laboratory assignments, the following concepts are implemented 
 * Dynamic Memory Allocation
 * Arrays
 * Recursion
-* Time Complexity (Basic Analysis)
 * Stack
 * Queue
 * Linked List
@@ -89,8 +85,8 @@ Throughout these laboratory assignments, the following concepts are implemented 
 | ------------------------ | --------------------------------- |
 | **Programming Language** | ANSI C                            |
 | **Compiler**             | GCC                               |
-| **IDE**                  | Visual Studio Code / Code::Blocks |
-| **Operating System**     | Windows / Linux                   |
+| **IDE**                  | Visual Studio Code                |
+| **Operating System**     | Windows                           |
 
 ---
 
