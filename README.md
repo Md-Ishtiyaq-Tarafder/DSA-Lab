@@ -74,6 +74,8 @@ DSA-Lab/
 ├── 11.Sorting/
 │   └── README.md
 ├── 12.Searching/
+│   └──linear_search.c
+│   ├── binary_search.c
 │   └── README.md
 ├── College Homework/
 │   └── README.md
