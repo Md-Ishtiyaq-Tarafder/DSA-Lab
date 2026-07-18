@@ -29,7 +29,9 @@ Comprehensive lab implementations and reports for Data Structures and Algorithms
 5. **10.Recursion** - Recursive problem solving
    - Files: `fibonacci.c`, `sum.c`
    - Fibonacci sequence and sum calculation using recursion
-
+6. **12.Searching** - Search related problem solving
+   - Files: `binary_search.c`, `linear_search.c`
+   - Implementing Searching
 ### To Be Implemented
 
 6. **02.Strings** - String manipulation and operations
