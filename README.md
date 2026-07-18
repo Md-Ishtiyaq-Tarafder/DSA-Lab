@@ -11,7 +11,7 @@ Comprehensive lab implementations and reports for Data Structures and Algorithms
 ### Implemented
 
 1. **01.Arrays** - Dynamic memory allocation (malloc, realloc, calloc)
-   - File: `dynamic_memory.c`
+   - File: `Array_using_dynamic_memory.c`
    - Demonstrates memory management in C
 
 2. **03.Linked List** - Singly linked list operations
