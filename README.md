@@ -1,200 +1,165 @@
-# Data Structures and Algorithms (DSA) Lab Reports
+# DSA-Lab - Data Structures and Algorithms
 
-![Language](https://img.shields.io/badge/Language-C-blue.svg)
-![Compiler](https://img.shields.io/badge/Compiler-GCC-success.svg)
-![Course](https://img.shields.io/badge/Course-CSE%201--2-orange.svg)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)
-![License](https://img.shields.io/badge/License-Educational-lightgrey.svg)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![College](https://img.shields.io/badge/College-Sylhet%20Engineering%20College-red)
+![Course](https://img.shields.io/badge/Course-CSE%201--2-green)
 
-This repository contains the laboratory assignments, source code implementations, and supporting documentation for the **CSE 1-2: Data Structures and Algorithms (DSA) Lab** course at **Sylhet Engineering College**.
+Comprehensive lab implementations and reports for Data Structures and Algorithms (CSE 1-2) at Sylhet Engineering College.
 
-The implementations are written in **ANSI C** and demonstrate the fundamental concepts of data structures, recursion, dynamic memory allocation, and algorithm design. This repository serves as both a record of laboratory work and a reference for learning the core concepts of Data Structures and Algorithms.
+## 📚 Topics Covered
 
----
+### Implemented
 
-# 👤 Student Information
+1. **01.Arrays** - Dynamic memory allocation (malloc, realloc, calloc)
+   - File: `dynamic_memory.c`
+   - Demonstrates memory management in C
 
-| Field           | Information                      |
-| --------------- | -------------------------------- |
-| **Name**        | **MD. ISHTIYAQ TARAFDER**        |
-| **Student ID**  | **2024331547**                   |
-| **Batch**       | **CSE-18**                       |
-| **Department**  | Computer Science and Engineering |
-| **Institution** | Sylhet Engineering College       |
+2. **03.Linked List** - Singly linked list operations
+   - File: `linked_list.c`
+   - Insert, delete, and display operations
 
----
+3. **04.Stack** - LIFO data structure
+   - File: `stack.c`
+   - Push, pop, peek operations with size tracking
 
-# 👨‍🏫 Course Information
+4. **05.Queue** - FIFO and Circular queue
+   - Files: `queue.c`, `circular_queue.c`
+   - Linear and circular queue implementations
 
-| Field           | Information                              |
-| --------------- | ---------------------------------------- |
-| **Course**      | Data Structures and Algorithms (DSA) Lab |
-| **Instructor**  | Abir Ahmed                               |
-| **Designation** | Adjunct Lecturer                         |
-| **Institution** | Sylhet Engineering College               |
+5. **10.Recursion** - Recursive problem solving
+   - Files: `fibonacci.c`, `sum.c`
+   - Fibonacci sequence and sum calculation using recursion
 
----
+### To Be Implemented
 
-# 📂 Laboratory Assignments
+6. **02.Strings** - String manipulation and operations
+7. **06.Trees** - Binary trees and tree traversal
+8. **07.Binary Search Tree** - BST operations
+9. **08.Heap** - Min/Max heap implementation
+10. **09.Graph** - Graph algorithms (DFS, BFS, Dijkstra)
+11. **11.Sorting** - Various sorting algorithms
+12. **12.Searching** - Searching algorithms
 
-## 📌 Lab-01 — Programming Fundamentals & Recursion
+## 📂 Repository Structure
 
-### Topics Covered
-
-* Dynamic Memory Allocation
-* Fibonacci Sequence Generation
-* Recursive Summation
-* Basic Recursive Algorithms
-
----
-
-## 📌 Lab-02 — Linear Data Structures
-
-### Topics Covered
-
-* Stack Implementation
-* Queue Implementation
-* Singly Linked List
-
-  * Insertion
-  * Deletion
-  * Traversal
-* Circular Queue Implementation
-
----
-
-# 📚 Concepts Covered
-
-Throughout these laboratory assignments, the following concepts are implemented and practiced.
-
-* Dynamic Memory Allocation
-* Arrays
-* Recursion
-* Stack
-* Queue
-* Linked List
-* Circular Queue
-* Algorithm Design
-* Problem Solving using C
-
----
-
-# 💻 Programming Environment
-
-| Component                | Details                           |
-| ------------------------ | --------------------------------- |
-| **Programming Language** | ANSI C                            |
-| **Compiler**             | GCC                               |
-| **IDE**                  | Visual Studio Code                |
-| **Operating System**     | Windows                           |
-
----
-
-# 📁 Repository Structure
-
-```text
+```
 DSA-Lab/
-│
-├── Lab-01/
-│   ├── source files
-│   └── outputs
-│
-├── Lab-02/
-│   ├── source files
-│   └── outputs
-│
-├── README.md
-└── LICENSE (optional)
+├── 01.Arrays/
+│   ├── dynamic_memory.c
+│   └── README.md
+├── 02.Strings/
+│   └── README.md
+├── 03.Linked List/
+│   ├── linked_list.c
+│   └── README.md
+├── 04.Stack/
+│   ├── stack.c
+│   └── README.md
+├── 05.Queue/
+│   ├── queue.c
+│   ├── circular_queue.c
+│   └── README.md
+├── 06.Trees/
+│   └── README.md
+├── 07.Binary Search Tree/
+│   └── README.md
+├── 08.Heap/
+│   └── README.md
+├── 09.Graph/
+│   └── README.md
+├── 10.Recursion/
+│   ├── fibonacci.c
+│   ├── sum.c
+│   └── README.md
+├── 11.Sorting/
+│   └── README.md
+├── 12.Searching/
+│   └── README.md
+├── College Homework/
+│   └── README.md
+├── Notes/
+│   └── README.md
+├── Practice Problem/
+│   └── README.md
+├── .gitignore
+└── README.md
 ```
 
----
+## 🚀 Quick Start
 
-# ⚙️ Compilation
+### Compilation
 
-Navigate to the appropriate lab directory and compile the desired C source file using GCC.
+Each C file can be compiled individually:
 
 ```bash
-gcc filename.c -o program
+# Compile a specific file
+gcc -o output_name file.c
+
+# Run the compiled program
+./output_name
 ```
 
-### Example
+### Examples
 
 ```bash
-gcc stack.c -o stack
+# Arrays
+gcc -o dynamic_memory 01.Arrays/dynamic_memory.c
+./dynamic_memory
+
+# Linked List
+gcc -o linked_list 03.Linked\ List/linked_list.c
+./linked_list
+
+# Stack
+gcc -o stack 04.Stack/stack.c
+./stack
+
+# Queue
+gcc -o queue 05.Queue/queue.c
+./queue
+
+# Circular Queue
+gcc -o circular_queue 05.Queue/circular_queue.c
+./circular_queue
+
+# Recursion
+gcc -o fibonacci 10.Recursion/fibonacci.c
+./fibonacci
 ```
 
----
+## 📖 Learning Outcomes
 
-# ▶️ Execution
+- ✅ Understand fundamental data structures
+- ✅ Implement algorithms from scratch in C
+- ✅ Learn memory management and pointers
+- ✅ Analyze time and space complexity
+- ✅ Practice problem-solving techniques
 
-### Linux / macOS
+## 🔧 Requirements
 
-```bash
-./program
-```
+- GCC or Clang compiler
+- Basic understanding of C programming
+- Knowledge of fundamental DSA concepts
 
-### Windows (MinGW / Code::Blocks / VS Code)
+## 📝 Notes
 
-```bash
-program.exe
-```
+- All implementations are in **C language**
+- Code includes proper memory management and error handling
+- Each topic folder contains detailed README with explanations
+- Practice problems available in the `Practice Problem/` folder
 
----
+## 🎓 Author
 
-# 🎯 Learning Objectives
+**Md Ishtiyaq Tarafder**
+- College: Sylhet Engineering College
+- Course: CSE 1-2 (Data Structures and Algorithms)
 
-The objectives of this laboratory course are to:
+## 📄 License
 
-* Understand the fundamentals of data structures.
-* Learn dynamic memory management in C.
-* Develop recursive problem-solving skills.
-* Implement linear data structures from scratch.
-* Analyze the efficiency of basic algorithms.
-* Improve programming and debugging skills.
-* Build a strong foundation for advanced algorithms.
-
----
-
-# 📖 References
-
-The implementations and concepts in this repository are based on the following resources:
-
-1. Reema Thareja — *Data Structures Using C* (Oxford University Press)
-2. S. K. Srivastava & Deepali Srivastava — *Data Structures Through C in Depth*
-3. Ellis Horowitz, Sartaj Sahni & Susan Anderson-Freed — *Fundamentals of Data Structures in C*
-4. Course Materials, Department of Computer Science and Engineering, Sylhet Engineering College
+This repository is for educational purposes.
 
 ---
 
-# 🤝 Contributing
+**Last Updated**: 2024
 
-This repository is primarily maintained for academic purposes. Suggestions, improvements, and constructive feedback are always welcome.
-
-If you discover any issues or have ideas for improvement, feel free to open an issue or submit a pull request.
-
----
-
-# 📄 License
-
-This project is intended for **educational purposes only**.
-
-Students are welcome to study the implementations and use them as learning resources. However, copying the code directly for academic submissions is discouraged. Please understand the concepts and write your own solutions whenever possible.
-
----
-
-# 👨‍💻 Author
-
-**MD. ISHTIYAQ TARAFDER**
-
-**B.Sc. in Computer Science and Engineering**
-Sylhet Engineering College
-
-📧 **Email:** *csestudent47@gmail.com*
-
-🔗 **GitHub:** https://github.com/Md-Ishtiyaq-Tarafder
-
-📁 **Repository:** https://github.com/Md-Ishtiyaq-Tarafder/DSA-Lab
-
----
-
-## ⭐ If you found this repository useful, consider giving it a star!
+For issues or suggestions, feel free to reach out!
